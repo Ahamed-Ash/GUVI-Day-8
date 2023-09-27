@@ -1,0 +1,21 @@
+package guvi
+
+public class SixthProject {
+    public static void main(String[] args) {
+        int number = 6;
+        long factorial = calculateFactorial(number);
+        System.out.println("The factorial of " + number + " is: " + factorial);
+    }
+        
+        if (num == 0 || num == 1) {
+            return 1;
+        }
+
+        long factorial = 1;
+        for (int i = 2; i <= num; i++) {
+            factorial *= i;
+        }
+
+        return factorial;
+    }
+}
